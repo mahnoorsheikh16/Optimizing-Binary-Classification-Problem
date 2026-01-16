@@ -9,7 +9,7 @@ This project studies fake news detection as a binary classification problem, wit
 3. [Implementation and Results](#implementation-and-results)
 
 ## Dataset, Preprocessing and Feature Representation
-The [WELFake (Kaggle)](https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification) dataset combines Kaggle, McIntire, Reuters, and BuzzFeed political news. Articles are cleaned to remove HTML artifacts, excessive whitespace, and duplicates. Very short articles are removed to ensure meaningful textual content. Data is split into 80–10–10 train/validation/test sets with stratification.
+The [WELFake](https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification) dataset combines Kaggle, McIntire, Reuters, and BuzzFeed political news. Articles are cleaned to remove HTML artifacts, excessive whitespace, and duplicates. Very short articles are removed to ensure meaningful textual content. Data is split into 80–10–10 train/validation/test sets with stratification.
 
 TF-IDF Vectorization is implemented with 5,000 features, unigrams and bigrams, stop-word removal, and sublinear term frequency scaling. This produces a high-dimensional sparse feature space, well suited for studying optimizer behavior.
 
