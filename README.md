@@ -1,1 +1,1 @@
-# Optimizing the Binary Classification Problem - Fake News Classification
+# Optimizing the Binary Classification Problem: Fake News Classification
